@@ -16,7 +16,7 @@ PI = 3.1416
 print(PI)
 print(type(PI))
 
-# en python no exist en las constantes, pero se puede simular escribiendo el nombre en mayusculas, pero ojo que pueden mutar
+# en python no zexist en las constantes, pero se puede simular escribiendo el nombre en mayusculas, pero ojo que pueden mutar
 PI = 2.5
 print(PI)
 
@@ -46,4 +46,4 @@ print (first_name, age, height, estado_civil)
 print(type(first_name), type(age), type(height), type(estado_civil))
 # en JS seria
 # console.log(first_name, age, height, estado_civil)
-# y el ingreso es con prompt y tambien entrega string, para pasar a numeros se usaba parseInt() o parseFloat()
+# y el ingreso es con prompt y tambien entrega string, para pasar a numeros se usaba parseInt() o parseFloat()z
