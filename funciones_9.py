@@ -16,3 +16,16 @@ say_goodbye(name)
 def full_name(first_name, last_name, prefix):
     full_name = f'{prefix} {first_name} {last_name}'
     return full_name
+
+def multiplicar(num_1, num_2):
+    resultado = num_1 * num_2
+    return resultado - 5
+print(multiplicar(3, 4))
+
+def dividir(num_1, num_2):
+    if num_2 == 0:
+        return 'no se puede dividir por cero'
+    #  lo que esta despues del return no se ejecuta, termina la funcion
+    resultado = num_1 / num_2
+    return resultado
+print(dividir(58,0))
